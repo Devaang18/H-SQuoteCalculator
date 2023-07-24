@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<head>
+    <title>Health and Safety Quote Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Health and Safety Quote Calculator</h1>
+
+    <input type="text" id="companyName" placeholder="Enter company name">
+    <input type="text" id="companyPostcode" placeholder="Enter company postcode">
+    <select id="companyType">
+        <option value="" disabled selected >Select company type</option>
+        <option value="Retail">Retail</option>
+        <option value="Agriculture">Agriculture</option>
+        <option value="Steel Works">Steel Works</option>
+    </select>
+    <input type="number" id="numEmployees" placeholder="Enter number of employees">
+    <button id="CalculateQuote" onclick="validatePostcodeAndCalculateQuote()" class="button-27" role="button">Calculate Quote</button>
+
+    <div id="QuoteResults">
+        <div id="GOLD">
+            <p style="font-weight:bold">Gold Level</p>
+            <p id="goldMonthlyQuoteResult"></p>
+            <p id="goldAnnualQuoteResult"></p>
+            <button id="GOLDSelect" onclick="GOLDSelectButton()" class="button-27" role="button">Select</button>
+            <button id="GOLDConfirm" onclick="Confirm()" class="button-27" role="button">Confirm</button>
+            <button id="GOLDEdit" onclick="Edit()" class="button-27" role="button">Edit</button>
+
+        </div>
+
+        <div id="SILVER">
+            <p style="font-weight:bold">Silver Level</p>
+            <p id="silverMonthlyQuoteResult"></p>
+            <p id="silverAnnualQuoteResult"></p>
+            <button id="SILVERSelect" onclick="SILVERSelectButton()" class="button-27" role="button">Select</button>
+            <button id="SILVERConfirm" onclick="Confirm()" class="button-27" role="button">Confirm</button>
+            <button id="SILVEREdit" onclick="Edit()" class="button-27" role="button">Edit</button>
+        </div>
+
+        <div id="BRONZE">
+            <p style="font-weight:bold">Bronze Level</p>
+            <p id="bronzeMonthlyQuoteResult"></p>
+            <p id="bronzeAnnualQuoteResult"></p>
+            <button id="BRONZESelect" onclick="BRONZESelectButton()" class="button-27" role="button">Select</button>
+            <button id="BRONZEConfirm" onclick="Confirm()" class="button-27" role="button">Confirm</button>
+            <button id="BRONZEEdit" onclick="Edit()" class="button-27" role="button">Edit</button>
+        </div>
+
+        <p id="ExtraHelp">Not satisfied with the quotes? Contact us on xxxxxxx</p>
+
+    </div>
+
+    <p id="ConfirmationPage">Details successfully transferred. The Health and Safety team will be in touch with you shortly.</p>
+    <button id="EXIT" onclick="Exit()" class="button-27" role="button">Exit</button>
+
+
+    <p id="AltQuoteResults">Contact us on xxxxxx to get support</p>
+
+    <script src="C:\Users\devaang.misra.THOMAS-CARROLL\Desktop\script.js"></script>
+
+</body>
+</html>
