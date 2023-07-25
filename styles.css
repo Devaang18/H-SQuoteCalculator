@@ -11,8 +11,8 @@ body {
 }
 #GOLD {
     position: fixed;
-    left: 140px;
-    top: 400px;
+    left: 10%;
+    top: 50%;
     padding: 10px;
     font-size: 18px;
 }
@@ -24,8 +24,8 @@ body {
 }
 #SILVER {
     position: fixed;
-    left: 640px;
-    top: 400px;
+    left: 40%;
+    top: 50%;
     padding: 10px;
     font-size: 18px;
 }
@@ -37,8 +37,8 @@ body {
 }
 #BRONZE {
     position: fixed;
-    left: 1140px;
-    top: 400px;
+    left: 70%;
+    top: 50%;
     padding: 10px;
     font-size: 18px;
 }
@@ -54,20 +54,21 @@ body {
 #ExtraHelp{
     position: fixed;
     font-weight: bold;
-    top:700px;
-    left: 1100px;
+    top:87%;
+    left: 70%;
 }
 
 h1{
     position: fixed;
-    left: 490px
+    top: 0%;
+    left: 25%;
 }
 #companyName {
     position: fixed;
     height: 25px;
     width: 500px;
-    left: 500px;
-    top: 100px;
+    left: 26%;
+    top: 10%;
     font-size: 18px;
     border-color: #d8232a;
     border-top: none;
@@ -78,9 +79,9 @@ h1{
     position: fixed;
     height: 25px;
     width: 500px;
-    left: 500px;
+    left: 26%;
     font-size: 18px;
-    top: 150px;
+    top: 16%;
     border-color: #d8232a;
     border-top: none;
     border-left: none;
@@ -90,8 +91,8 @@ h1{
     height: 25px;
     width: 500px;
     position: fixed;
-    left: 500px;
-    top: 200px;
+    left: 26%;
+    top: 22%;
     font-size: 18px;
     border-color: #d8232a;
     border-top: none;
@@ -102,8 +103,8 @@ h1{
     height: 25px;
     width: 500px;
     position: fixed;
-    left: 500px;
-    top: 250px;
+    left: 26%;
+    top: 28%;
     font-size: 18px;
     border-color: #d8232a;
     border-top: none;
@@ -113,8 +114,8 @@ h1{
 
 #CalculateQuote {
     position: fixed;
-    left: 660px;
-    top: 300px;
+    left: 36%;
+    top: 34%;
     font-size: 20px;
 }
 
@@ -168,4 +169,11 @@ h1{
     position: fixed;
     top: 150px;
     left: 10px;
+}
+#AltQuoteResults {
+    position: fixed;
+    top: 50%;
+    left: 32.5%;
+    font-size: larger;
+    font-weight: bolder;
 }
